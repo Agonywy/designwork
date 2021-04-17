@@ -1,4 +1,3 @@
-server:
-  port: 8088
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
+spring:
+  profiles:
+    active: dev
